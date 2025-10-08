@@ -60,6 +60,7 @@ class OSPFInstanceForm(NetBoxModelForm):
             'vrf',
             'description',
             'comments',
+            'tags',
         )
 
 
@@ -73,6 +74,7 @@ class OSPFAreaForm(NetBoxModelForm):
             'area_type',
             'description',
             'comments',
+            'tags',
         )
 
 
@@ -148,6 +150,7 @@ class OSPFInterfaceForm(NetBoxModelForm):
             'passphrase',
             'description',
             'comments',
+            'tags',
         )
 
         widgets = {
