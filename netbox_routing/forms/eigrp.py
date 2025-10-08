@@ -42,6 +42,7 @@ class EIGRPRouterForm(NetBoxModelForm):
             'rid',
             'description',
             'comments',
+            'tags',
         )
         widgets = {
             'mode': HTMXSelect(),
@@ -86,6 +87,7 @@ class EIGRPAddressFamilyForm(NetBoxModelForm):
             'rid',
             'description',
             'comments',
+            'tags',
         )
 
 
@@ -118,6 +120,7 @@ class EIGRPNetworkForm(NetBoxModelForm):
             'network',
             'description',
             'comments',
+            'tags',
         )
 
 
@@ -175,6 +178,7 @@ class EIGRPInterfaceForm(NetBoxModelForm):
             'passphrase',
             'description',
             'comments',
+            'tags',
         )
 
         widgets = {
