@@ -1,5 +1,5 @@
 import strawberry_django
-from strawberry_django import StrFilterLookup
+from strawberry_django.fields.filter_types import StrFilterLookup
 
 from netbox.graphql.filters import PrimaryModelFilter
 from netbox_routing import models
